@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Desktop version*/ 
+@media (min-width: 992px) {
+
+}
+/*Tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*Mobile version*/
+@media (max-width: 767px) {
+
+}
+
+div {
+    background: rgba(128, 128, 128, 0.438);
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;  
+    color: red;
+    border: 1px solid black;
+    text-align: center;      
+}
