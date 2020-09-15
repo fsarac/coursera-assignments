@@ -15,12 +15,41 @@
 
 }
 
-div {
-    background: rgba(128, 128, 128, 0.438);
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;  
-    color: red;
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 50%;
+    height: auto;
+    background-color: lightgray;
+    float: left;
+    margin: 10px;
     border: 1px solid black;
-    text-align: center;      
+    position: relative;
+    padding-top: 21px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#block {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: yellow;
+    margin: 0px;
+}
+
+p {
+    width: auto;
+    height: 20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    padding: 2px;
+}
+
+.row {
+    width: 100%;
 }
